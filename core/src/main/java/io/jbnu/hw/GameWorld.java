@@ -12,12 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 import static io.jbnu.hw.Coin.Dir;
 
-/**
- * ★ 요청사항만 반영:
- *   - 레벨2/레벨3 “교체” (L2 = 타임 60초, L3 = 스위치 제한)
- *   - 레벨3 충돌(수집) 보정 유지(스윕 박스 로직)
- *   - 나머지는 변경 없음
- */
 public class GameWorld {
 
     private enum LevelRule { ANY, MATCH_DIR }

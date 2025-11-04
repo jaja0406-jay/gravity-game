@@ -11,12 +11,7 @@ import com.badlogic.gdx.graphics.Texture;    // ★ 1x1 버튼 배경용
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-/**
- * ★ UI/HUD 전담
- * - 월드는 GameWorld.draw(batch)에서 자체 카메라로 렌더
- * - HUD/버튼은 화면 고정 카메라(uiCamera)로 오버레이
- * - 다른 로직은 건드리지 않음
- */
+
 public class MainGame extends ApplicationAdapter {
 
     private GameWorld world;
